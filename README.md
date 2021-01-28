@@ -29,28 +29,7 @@ conda create --name gromacs-tutorials -c conda-forge -c bioconda gromacs=2020.5 
 
 For MaxOS, we will have to stick to the older `gromacs=2019.1`
 
-Then we install pmx
-
-```bash
-conda activate gromacs-tutorials
-# Now let's download pmx
-git clone https://github.com/deGrootLab/pmx
-cd pmx
-# we will use "develop" branch of the pmx
-git checkout develop
-# finally, install pmx
-pip install .
-```
-
-And biobb (bio-building blocks)
-
-```bash
-conda activate gromacs-tutorials
-conda install -c bioconda biobb_analysis
-conda install -c bioconda biobb_md
-jupyter-nbextension enable --py --user widgetsnbextension
-jupyter-nbextension enable --py --user nglview
-```
+Please use a separate environment for biobb (bio-building blocks)
 
 ## (Optional) MPI-enabled GROMACS
 
