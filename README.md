@@ -25,7 +25,7 @@ Make an environment for the GROMACS tutorials with:
 
 ```bash
 conda install -c conda-forge ocl-icd-system 
-conda create --name gromacs-tutorials -c conda-forge -c bioconda gromacs=2020.5 matplotlib nglview notebook numpy requests pandas seaborn -c rdkit rdkit 
+conda create --name gromacs-tutorials -c conda-forge -c bioconda gromacs=2020.5 matplotlib nglview notebook numpy requests pandas seaborn -c rdkit 
 ```
 
 For MaxOS, we will have to stick to the older `gromacs=2019.1`
