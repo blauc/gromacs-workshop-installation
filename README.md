@@ -4,7 +4,6 @@ This page contains software installation instructions for Gromacs workshops. Whe
 
 - For the tutorial "Computing trajectories efficiently on GPUs" and the "QM/MM" part we will use an external cluster and instructions will be provided during the workshop.
 - After you have gone through the installation steps below, please download the [tutorial Jupyter notebook](tutorial.ipynb), run the notebook from terminal with `jupyter-notebook tutorial.ipynb`, and execute all cells in the notebook to make sure you have everything installed correctly.
-To download the notebook, visit [this page](https://raw.githubusercontent.com/ENCCS/gromacs-workshop-installation/main/tutorial.ipynb) and save it to your hard drive by right-clicking the page and saving it as "tutorial.ipynb".
 
 ## GROMACS and Python packages
 
